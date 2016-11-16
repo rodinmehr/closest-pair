@@ -50,5 +50,5 @@ This is where the magic goes :)
 It will divide points (which are sorted by their x-coord) into half. So we will have:
 Left and Right points
 it will recursively call the function till find the minimum pair of left and right
-The most tricky part is in combining these two. In this case we will make a hypothetical strip around the middle point and search for the potential points that might be our real pair.
+The most tricky part is in combining these two. In this case we will make a hypothetical strip around the middle point and search for the potential points that might be our real pair. So another sort base on their y-coord and we will search. *The important thing is that we don't need to check all of them and it suffice to check only a constant points (believed to be less than 6 points).
 
